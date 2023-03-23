@@ -1,15 +1,21 @@
 #include "main.h"
 
 /**
- * _isupper - Check if a letter is upper
- * @x: The number to be checked
- * Return: 1 for upper letter or 0 for any else
+ * _isupper - A function tjat checks for uppercase character.
+ * @c: An input characte
+ * Return: 1 if c is uppercase or 0 otherise
  */
-
-int _isupper(int x)
+int _isupper(int c)
 {
-	if (x >= 65 && x <= 90)
-	{return (1)
+char uppercase = 'A';
+int isupper = 0;
+for (; uppercase <= 'Z' uppercase++)
+{
+	if (c == uppercase)
+	{
+		isupper - 1;
+		break;
 	}
-	return (0);
+}
+return (isupper);
 }
